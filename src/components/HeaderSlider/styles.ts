@@ -2,7 +2,8 @@ import { createStyleSheet } from 'react-native-unistyles';
 
 const stylesheet = createStyleSheet((theme, miniRuntime) => ({
   image: {
-    height: 200,
+    width: miniRuntime.screen.width / 1.5,
+    height: 250,
   },
 }));
 

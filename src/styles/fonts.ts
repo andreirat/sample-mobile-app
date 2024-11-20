@@ -17,6 +17,17 @@ const fonts = {
       normal: 'Merriweather-Regular',
     },
   },
+  secondary: {
+    bold: {
+      normal: 'OpenSans-Bold',
+    },
+    semiBold: {
+      normal: 'OpenSans-SemiBold',
+    },
+    regular: {
+      normal: 'OpenSans-Regular',
+    },
+  },
 };
 
 const fontVariants = {
@@ -35,6 +46,26 @@ const fontVariants = {
   Body: {
     fontSize: 14,
     fontFamily: fonts.primary.regular.normal,
+  },
+  Body2: {
+    fontSize: 16,
+    fontFamily: fonts.secondary.regular.normal,
+  },
+  Body3: {
+    fontSize: 17,
+    fontFamily: fonts.secondary.semiBold.normal,
+  },
+  Body4: {
+    fontSize: 12,
+    fontFamily: fonts.secondary.semiBold.normal,
+  },
+  Body5: {
+    fontSize: 14,
+    fontFamily: fonts.secondary.regular.normal,
+  },
+  Body6: {
+    fontSize: 16,
+    fontFamily: fonts.secondary.bold.normal,
   },
 };
 

@@ -4,4 +4,5 @@ export interface IconButtonProps {
   iconName: keyof typeof icons;
   iconSize?: number;
   onPress: () => void;
+  iconColor?: string;
 }

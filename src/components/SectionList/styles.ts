@@ -5,6 +5,8 @@ const stylesheet = createStyleSheet(theme => ({
     marginHorizontal: theme.spacing[2],
   },
   tab: {
+    alignItems: 'center',
+    justifyContent: 'center',
     paddingVertical: theme.spacing[2],
     paddingHorizontal: theme.spacing[4],
     borderRadius: 20,
@@ -13,12 +15,12 @@ const stylesheet = createStyleSheet(theme => ({
     backgroundColor: theme.colors.primary,
   },
   tabText: {
-    fontWeight: 'semibold',
-    fontSize: 16,
+    fontFamily: 'OpenSans-SemiBold',
+    fontSize: 14,
     color: theme.colors.primary,
   },
   selectedTabText: {
-    color: '#FFFFFF',
+    color: 'white',
   },
 }));
 

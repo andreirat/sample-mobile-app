@@ -1,7 +1,7 @@
-import { Review } from '../../../../types/review.ts';
+import { PublicFeedbackDetails } from '../../../../types/place.ts';
 
 export interface ReviewsSectionProps {
-  totalRating: number;
+  totalRating: string;
   reviewsCount: number;
-  reviews: Review[];
+  reviews: PublicFeedbackDetails[];
 }

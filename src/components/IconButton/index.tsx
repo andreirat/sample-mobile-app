@@ -6,11 +6,11 @@ import Icon from '../Icon';
 import { useStyles } from 'react-native-unistyles';
 import stylesheet from './styles.ts';
 
-const IconButton = ({ iconName, onPress, iconSize }: IconButtonProps) => {
+const IconButton = ({ iconName, onPress, iconSize, iconColor }: IconButtonProps) => {
   const { styles } = useStyles(stylesheet);
   return (
     <Pressable onPress={onPress} style={styles.container}>
-      <Icon size={iconSize} name={iconName} />
+      <Icon color={iconColor} size={iconSize} name={iconName} />
     </Pressable>
   );
 };

@@ -7,6 +7,11 @@ export enum TextVariantsEnum {
   H2 = 'H2',
   H3 = 'H3',
   Body = 'Body',
+  Body2 = 'Body2',
+  Body3 = 'Body3',
+  Body4 = 'Body4',
+  Body5 = 'Body5',
+  Body6 = 'Body6',
 }
 
 export type TextVariants = keyof typeof TextVariantsEnum;

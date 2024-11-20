@@ -1,5 +1,5 @@
-import { Review } from '../../types/review';
+import { PublicFeedbackDetails } from '../../types/place.ts';
 
 export interface ReviewCardProps {
-  review: Review;
+  review: PublicFeedbackDetails;
 }

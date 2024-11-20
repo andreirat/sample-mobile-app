@@ -3,7 +3,7 @@ import { createStyleSheet } from 'react-native-unistyles';
 const stylesheet = createStyleSheet(theme => ({
   reviewsSection: {
     paddingHorizontal: theme.margins.screenHorizontal,
-    marginTop: theme.spacing[10],
+    marginTop: theme.spacing[8],
     justifyContent: 'space-between',
   },
   reviewsInfo: {
@@ -13,6 +13,12 @@ const stylesheet = createStyleSheet(theme => ({
   reviews: {
     marginTop: theme.spacing[4],
     gap: theme.spacing[4],
+  },
+  reviewsCount: {
+    paddingLeft: 5,
+  },
+  reviewsTotal: {
+    paddingLeft: theme.spacing[0.5],
   },
 }));
 

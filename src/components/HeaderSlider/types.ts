@@ -1,3 +1,5 @@
+import { PageImage } from '../../types/place.ts';
+
 export interface HeaderSliderProps {
-  images: string[];
+  images: PageImage[];
 }
